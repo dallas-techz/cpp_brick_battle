@@ -3,7 +3,7 @@ CC = gcc
 CXX = g++
 ECHO = echo
 RM = rm -f
-
+#
 CFLAGS = -Wall -Werror -ggdb
 # We're using the same flags for both C and C++, but they could be different
 CXXFLAGS = -Wall -Werror -ggdb
