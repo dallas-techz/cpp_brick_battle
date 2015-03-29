@@ -50,3 +50,8 @@ clobber: clean
 etags:
 	@$(ECHO) Updating TAGS
 	@etags *.[ch]
+
+compush: clobber
+	git add *
+	git commit -m "$m"
+	git push origin master
