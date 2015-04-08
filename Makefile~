@@ -7,8 +7,8 @@ CFLAGS = -Wall -Werror -ggdb
 CXXFLAGS = -Wall -Werror -ggdb
 LDFLAGS = -lncurses
 
-BIN = bb 	# Bin name here
-OBJS = bb.o entities.o # .o files go here
+BIN =  	# Bin name here
+OBJS = 	# .o files go here
 
 
 all: $(BIN) etags

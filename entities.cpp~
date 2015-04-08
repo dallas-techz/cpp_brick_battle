@@ -1,6 +1,6 @@
 #ifndef BRICK_BATTLE_ENTITES
 #define BRICK_BATTLE_ENTITES 1
-/*
+
 #define BB_NUM_TILES 30
 
 #include <string>
@@ -26,6 +26,6 @@ private:
   bool is_local;
   int score;
 };
-*/
+
 
 #endif
