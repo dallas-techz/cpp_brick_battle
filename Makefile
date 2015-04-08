@@ -13,7 +13,7 @@ OBJS = bb.o entities.o # .o files go here
 commit: clobber
 	git add *
 	git commit -m "$(m)"
-	git remote push origin master
+	git push origin master
 
 all: $(BIN) etags
 
