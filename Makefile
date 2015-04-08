@@ -10,6 +10,8 @@ LDFLAGS = -lncurses
 BIN = bb 	# Bin name here
 OBJS = bb.o entities.o # .o files go here
 
+commit:
+	git commit -m "$(m)"
 
 all: $(BIN) etags
 
