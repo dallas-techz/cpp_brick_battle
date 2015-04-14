@@ -1,5 +1,6 @@
 #include <ncurses.h>
 #include <iostream>
+#include <stdint.h>
 
 #include "entities.h"
 
@@ -24,10 +25,21 @@
   Ball
  */
 
+uint32_t init_io(void) {
+
+  initscr();
+  keypad(stdscr, true);
+  
+  noecho();
+
+  return 0;
+}
+
 int main(int argc, char * argv[]) {
   
   ball b(2,2);
-  std::cout << b.x << std::endl;
+
+  
 
   return 0;
 }

@@ -16,23 +16,23 @@ public:
 
 class ball : public entity {
 public:
-  ball(uint32_t a, uint32_t b) {
-    x =  a;
-    y = b;
-    width = BALL_DIM;
-    height = BALL_DIM;
+  ball(uint32_t x, uint32_t y) {
+    this->x =  x;
+    this->y = y;
+    this->width = BALL_DIM;
+    this->height = BALL_DIM;
   }
 };
 
-class tile : public entity {
-private:
-  /*
-  int x, y;
-  int width, height;
-  bool is_broken;
-  */
+// class tile : public entity {
+// private:
+//   /*
+//   int x, y;
+//   int width, height;
+//   bool is_broken;
+//   */
 
-};
+// };
 
 
 #endif
